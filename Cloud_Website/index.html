@@ -56,18 +56,18 @@
             <div class="showcase-form card">
 
                 <h2>Request a Demo</h2>
-                <form action="">
-
+                <form name="contact" method="POST" netlify>
+                    <input type='hidden' name='form-name' value='contact' />
                     <div class="form-control">
                         <input type="text" name="name" placeholder="Name" required>
                     </div>
                     <div class="form-control">
-                        <input type="text" name="name" placeholder="Company Name" required>
+                        <input type="text" name="comany_name" placeholder="Company Name" required>
                     </div>
                     <div class="form-control">
-                        <input type="email" name="name" placeholder="Email" required>
+                        <input type="email" name="email" placeholder="Email" required>
                     </div>
-                    <input type="submit" value="Send" class="btn btn-primary ">
+                    <button type="submit" class="btn btn-primary ">Send </button>
                 </form>
 
             </div>
